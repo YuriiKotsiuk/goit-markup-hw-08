@@ -1,0 +1,136 @@
+.main {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.btn {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 6px 22px; 
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+        background: #2196F3;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
+}
+
+.description-site__title {
+    
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+margin: 0;
+}
+
+.description-site__styles {
+    
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+margin: 0;
+}
+
+
+.main-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.main-buttons__list:not(:last-child) {
+    margin-right: 8px;
+}
+.presentation {
+    margin: 0;
+}
+
+.description-site {
+    padding: 20px 24px;
+}
+
+
+.main-presentation:nth-last-child(-n + 3) {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    
+}
+.list-boxing:nth-child(-n + 6) {
+    margin-bottom: 30px;
+}
+.list-boxing:not(:nth-child(3n + 3)) {
+    margin-right: 30px;
+}
+
+.main-presentation__list {
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    }
+
+
+.main-presentation__list:hover .list-wrap__text {
+    transform: translateY(0);
+    
+}
+
+
+
+.list-wrap__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    padding: 63px 24px;
+    max-height: 294px;
+    width: 370px;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+border: none;
+&:focus,
+&:hover {
+    color: #FFFFFF;
+}
+}

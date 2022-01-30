@@ -1,0 +1,65 @@
+
+
+.static-item {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.static-item + .static-item {
+    margin-left: 30px;
+}
+
+.static-icon {
+    fill: #212121;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.worker-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.about-us__list {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: -15px;
+}
+
+.about-us__item {
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+}
+
+
+.about-us__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--body-dark-color);
+    margin-bottom: 10px;
+
+}
+
+.about-pgf {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+    
+}
