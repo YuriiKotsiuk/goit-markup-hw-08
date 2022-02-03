@@ -48,6 +48,13 @@
 }
 
 
+// .worker-social-list {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
 .worker-social-item + .worker-social-item {
     margin-left: 10px;
 }
@@ -63,6 +70,7 @@
     border-radius: 0px 0px 4px 4px;
     width: calc(100% / 4 - 30px);
     justify-content: center;
+    
 }
 
 
