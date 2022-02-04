@@ -26,9 +26,6 @@ button {
 
 img {
   display: block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
 }
 
 body {
@@ -64,28 +61,10 @@ ul {
 }
 
 .container {
-  width: 100%;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
 }
 
 .backdrop {
@@ -580,7 +559,7 @@ ul {
 }
 
 .static-item {
-  width: 100%;
+  width: 270px;
   height: 120px;
   background: #F5F4FA;
   border-radius: 4px;
@@ -609,55 +588,35 @@ ul {
       align-content: center;
 }
 
-.about {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.worker-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-@media screen and (min-width: 1200px) {
-  .about {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-us__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   margin: -15px;
 }
 
-@media screen and (min-width: 768px) {
-  .about-us__list {
-    width: 768;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-left: -15px;
-  }
-}
-
 .about-us__item {
+  width: calc(100% / 4 - 30px);
   margin: 15px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-us__item {
-    width: calc(100% / 2 - 30px);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 768;
-    margin: 15px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .about-us__item {
-    width: calc(100% / 4 - 30px);
-  }
 }
 
 .about-us__title {
