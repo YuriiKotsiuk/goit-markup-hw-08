@@ -25,12 +25,14 @@
 }
 
 .site-nav {
-    display: flex;
+    // display: flex;
+    display: none;
     align-items: center;
 }
 
 .site-list {
-    display: flex;
+    // display: flex;
+    display: none;
     align-items: center;
 }
 
@@ -59,7 +61,8 @@
 }
 
 .site-list-one__item {
-    display: flex;
+display: none;
+    // display: flex;
     align-items: center;
 }
 
@@ -112,4 +115,86 @@ color: #2196F3;
     display: flex;
     align-items: center;
     fill: #757575;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-open-btn {
+    margin-right: 15px;
+}
+
+
+
+
+
+.mob-menu {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+}
+
+.menu-close-btn {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
+.mob-menu-list {
+    margin-bottom: 302px;
+}
+
+.mob-menu__link {
+font-weight: 500;
+font-size: 40px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.mob-menu__item {
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+.mob-menu-one__item {
+    margin-bottom: 64px;
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+.social-mob-item {
+    display: inline;
+}
+
+
+.mob-menu-tel__link {
+font-weight: 500;
+font-size: 34px;
+line-height: 1.18;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+
+.mob-menu-mail__link {
+font-weight: 500;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.social-mob-link {
+    font-weight: 500;
+font-size: 18px;
+line-height: 1.22;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
