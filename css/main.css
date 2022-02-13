@@ -972,8 +972,15 @@ section {
   padding-bottom: 94px;
 }
 
+@media (max-width: 1199px) {
+  .foto {
+    display: none;
+  }
+}
+
 .imgwork {
   min-height: 294px;
+  max-width: 370px;
 }
 
 .project-title {
@@ -989,8 +996,6 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .project-list__title:not(:last-child) {

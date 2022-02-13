@@ -1,9 +1,13 @@
 .foto {
+    @media (max-width: 1199px) {
+        display: none;
+    }
     padding-bottom: 94px;
 }
 
 .imgwork {
     min-height: 294px;
+    max-width: 370px;
 }
 
 .project-title {
@@ -18,7 +22,7 @@
 
 .project-list {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .project-list__title:not(:last-child) {
