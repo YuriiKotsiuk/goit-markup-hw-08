@@ -47,8 +47,8 @@
 }
 
     @media screen and (min-width:1200px) {
-        display: flex;
-
+        margin-left: auto;
+        justify-content: center;
     }
     @media screen and (max-width:1199px) {
         text-align: center;
@@ -62,8 +62,7 @@
     
     }
     @media screen and (min-width:1200px) {
-        margin-left: 70px;
-    
+    margin-left: 0;
     }
 }
 
@@ -74,6 +73,10 @@ justify-content: center;
 
     @media screen and (min-width:768px) {
     
+    }
+    @media screen and (min-width:1200px) {
+        margin-left: 0;
+        margin-right: 70px;
     }
 }
 
@@ -151,9 +154,14 @@ margin-bottom: 9px;
 .subscription {
     width: 100%;
     margin-left: auto;
+    // @media screen and (min-width:768px) {
+    //     width: 100%;
+    //     }
 
     @media screen and (min-width:1200px) {
-    display: flex;
+    display: block;
+    width: 570px;
+margin-left: 93px;
     }
 }
 
@@ -193,6 +201,8 @@ margin-bottom: 9px;
 
     @media screen and (min-width:1200px) {
         width: 358px;
+        margin-right: 12px;
+        margin-left: 0;
     }
 }
 
@@ -205,9 +215,7 @@ margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.sub-form {
-width: 100%;
-    
+.sub-form {    
     align-items: center;
     @media screen and (min-width:768px) {
 
@@ -238,6 +246,9 @@ width: 100%;
     @media screen and (min-width:768px) { 
         display: block;
     }
+    @media screen and (min-width:1200px) { 
+        margin: 0;
+    }
 }
 
 
@@ -249,9 +260,8 @@ width: 100%;
     margin-left: 10px;
 }
 
-// .sub-right {
-//     @media screen and (min-width:1200px) {
-//     display: flex;
-//     justify-content: center;
-//     }
-// }
+.sub-right {
+    @media screen and (min-width:1200px) {
+    display:flex;
+    }
+}
