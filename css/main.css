@@ -1728,6 +1728,10 @@ section {
   border-radius: 4px;
 }
 
+.description-site {
+  margin-right: auto;
+}
+
 .description-site__title {
   font-style: normal;
   font-weight: 700;
@@ -1819,7 +1823,6 @@ section {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1845,6 +1848,7 @@ section {
         flex-wrap: wrap;
     width: calc(100% / 2 - 30px);
     margin-left: 30px;
+    height: 440px;
   }
 }
 
