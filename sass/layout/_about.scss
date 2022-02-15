@@ -73,6 +73,9 @@
     color: var(--body-dark-color);
     margin-bottom: 10px;
     text-align: center;
+    @media screen and (min-width:1200px) {
+    text-align: left;
+    }
 }
 
 .about-pgf {
